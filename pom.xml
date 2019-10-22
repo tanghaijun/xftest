@@ -42,6 +42,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <includeSystemScope>true</includeSystemScope>
+                    <finalName>demo</finalName>
+                    <fork>true</fork>
+                </configuration>
             </plugin>
         </plugins>
     </build>
